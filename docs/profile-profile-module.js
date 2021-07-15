@@ -295,7 +295,7 @@ class UpdateStoreInfoComponent {
         this.listDistrict = [];
         this.districtIdSelected = -1;
         this.wardIdSelected = '-1';
-        this.backendUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].productServiceUrl}/api/upload`;
+        this.backendUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].uploadFileUrl}/api/upload`;
         this.isLoadingSubmit = false;
         this.isLoadingSellerDetail = true;
         this.epochTime = "1970-01-01";
@@ -698,7 +698,7 @@ class UpdateInfoComponent {
         this.listDistrict = [];
         this.districtIdSelected = -1;
         this.wardIdSelected = '-1';
-        this.backendUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].productServiceUrl}/api/upload`;
+        this.backendUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].uploadFileUrl}/api/upload`;
         this.isLoadingSubmit = false;
         this.isLoadingSellerDetail = true;
         this.existEmailValidator = (control) => {

@@ -1495,7 +1495,7 @@ class BlogFormComponent {
         this.messageService = messageService;
         this.isLoadingButtonSubmit = false;
         this.loading = false;
-        this.backEndUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].productServiceUrl}/api/upload`;
+        this.backEndUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].uploadFileUrl}/api/upload`;
         this.blog = {
             id: null,
             title: null,

@@ -51,7 +51,7 @@ function getBase64(file) {
 class ProductImageComponent {
     constructor(productService) {
         this.productService = productService;
-        this.backEndUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].productServiceUrl}/api/upload`;
+        this.backEndUrl = `${_env__WEBPACK_IMPORTED_MODULE_2__["environment"].uploadFileUrl}/api/upload`;
         this.listImageChange = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.previewImage = '';
         this.previewVisible = false;

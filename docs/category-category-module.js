@@ -141,7 +141,7 @@ class CategoryModalComponent extends _app_modules_common_base_modal_component__W
         this.okModalEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.isHaveFile = false;
         this.categories = [];
-        this.backEndUrl = `${_env__WEBPACK_IMPORTED_MODULE_3__["environment"].productServiceUrl}/api/upload`;
+        this.backEndUrl = `${_env__WEBPACK_IMPORTED_MODULE_3__["environment"].uploadFileUrl}/api/upload`;
         this.fileList = [];
         this.isLoadingCategoryInSelect = false;
         this.handleChange = (info) => {
